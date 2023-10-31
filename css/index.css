@@ -27,10 +27,7 @@ p {
     padding-top: 30px;
   }
 
-div h1 {
-    color: green;
-    text-align: center;
-  }
+
 .megabox {
     width: 100%;
     display: flex;
