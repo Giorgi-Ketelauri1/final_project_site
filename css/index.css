@@ -15,7 +15,7 @@ img {
     width: auto;
   }
 .kapi{
-  max-height: 346px;
+  max-height: 300px;
 }
 .arduino{
   max-height: 346px;
@@ -34,7 +34,7 @@ p {
   }
   
 .inside {
-    width: 500px;
+    width: 400px;
     background: linear-gradient(120deg, #6b9bbb, #7a78e9);
     border-radius: 10px;
     overflow: hidden;
@@ -42,13 +42,28 @@ p {
     margin: 0 auto;
     margin-top: 50px;
   }
+.header{
+  margin: 0;
+}
 
-header{
-        background: linear-gradient(120deg, #67a5f5, #2dddf5);
-        list-style-type: none;
-        margin: 0;
-        padding-top:15px;
-        padding-bottom: 15px;
-        overflow: hidden;
+.header a{
+        float: left;
+        color: #f2f2f2;
         text-align: center;
+        padding: 50px;
+        text-decoration: none;
+        font-size: 17px;
   }
+.logo {
+  width: 90px;
+  height: 90px;
+}
+i{
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
