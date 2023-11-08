@@ -3,12 +3,20 @@ body {
     box-sizing: border-box;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
 img {
     max-width: 100%;
     border-radius: 10px;
     display: block;
+    margin: 0 auto;
+}
+
+.p2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
     margin: 0 auto;
 }
 
@@ -36,26 +44,30 @@ p {
 
 .header {
     margin: 0;
+    text-align: center;
 }
 
 .header a {
-    float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 50px;
+    padding: 20px;
     text-decoration: none;
     font-size: 17px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .logo {
     width: 90px;
     height: 90px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 i {
-    float: left;
     color: #f2f2f2;
-    padding: 14px 16px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .header a:hover {
