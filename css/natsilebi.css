@@ -44,7 +44,6 @@ p {
   }
 
 .megabox1{
-  display: flex;
   display: inline-block;
   margin: 0 auto;
 }
